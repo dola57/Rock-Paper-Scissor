@@ -1,0 +1,272 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  position: relative;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #393E46;
+}
+
+.heading {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 6rem;
+  color: #4ECCA3;
+}
+
+.drum {
+	outline: none;
+	border: 10px solid #4ECCA3;
+	font-size: 35px;
+	font-family: 'Arvo', cursive;
+	/* line-height: 2; */
+	font-weight: 900;
+	color: #DA0463;
+	text-shadow: 3px 0 #DBEDF3;
+	border-radius: 15px;
+	display: inline-block;
+	width: 167px;
+	height: 81px;
+	text-align: center;
+	/* margin: 10px; */
+	background-color: white;
+	position: absolute;
+	top: 72%;
+	right: 90%;
+	/* padding-bottom: 21px; */
+	/* margin-bottom: 38px; */
+}
+
+.again {
+	outline: none;
+	border: 10px solid #F00;
+	font-size: 35px;
+	font-family: 'Arvo', cursive;
+	/* line-height: 2; */
+	font-weight: 900;
+	color: #9EA2A1;
+	text-shadow: 3px 0 #1C1A1A;
+	border-radius: 15px;
+	display: inline-block;
+	width: 212px;
+	height: 81px;
+	text-align: center;
+	/* margin: 10px; */
+	background-color: #fff;
+	position: absolute;
+	top: 72%;
+	right: 90%;
+}
+
+.drumagain{
+  color: red;
+}
+
+.drumwinner{
+  color: red !important;
+}
+
+.bfr{
+  visibility: hidden;
+}
+
+.res1, .res2 {
+  font-family: 'Arvo', cursive;
+	color: white;
+	position: absolute;
+	top: 59%;
+	right: -4%;
+}
+
+.res2 {
+	top: 74%;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+	width: 80%;
+	border-radius: 64px;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
+
+@media (min-width: 820px) and (max-width: 1090px) {
+
+  .heading {
+  	font-family: 'Lobster', cursive;
+  	text-shadow: 5px 0 #232931;
+  	font-size: 6rem;
+  	color: #4ECCA3;
+  	padding-bottom: 57px;
+  }
+
+.drum {
+	outline: none;
+	border: 10px solid #4ECCA3;
+	font-size: 35px;
+	font-family: 'Arvo', cursive;
+	font-weight: 900;
+	color: #DA0463;
+	text-shadow: 3px 0 #DBEDF3;
+	border-radius: 15px;
+	display: inline-block;
+	width: 167px;
+	height: 81px;
+	text-align: center;
+	background-color: white;
+	position: absolute;
+	top: 122%;
+	right: 38%;
+}
+
+.res1, .res2 {
+	font-family: 'Arvo', cursive;
+	color: white;
+	position: absolute;
+	top: 149%;
+	right: 40%;
+}
+
+.res2 {
+	top: 160%;
+}
+
+.again {
+    outline: none;
+    border: 10px solid #F00;
+    font-size: 21px;
+    font-family: 'Arvo', cursive;
+    font-weight: 900;
+    color: #9EA2A1;
+    text-shadow: 3px 0 #1C1A1A;
+    border-radius: 15px;
+    display: inline-block;
+    width: 138px;
+    height: 81px;
+    text-align: center;
+    background-color: #fff;
+    position: absolute;
+    top: 122%;
+    right: 40%;
+}
+
+}
+
+@media (max-width: 800px) {
+
+.heading {
+  	font-family: 'Lobster', cursive;
+  	text-shadow: 5px 0 #232931;
+  	font-size: 3rem;
+  	color: #4ECCA3;
+  	margin: 7px;
+  	margin-bottom: 66px;
+}
+
+p {
+	font-size: 24px;
+	color: #4ECCA3;
+	font-family: 'Indie Flower', cursive;
+	margin: 0 21px;
+}
+
+.img1 {
+	width: 44%;
+	border-radius: 64px;
+	position: absolute;
+	left: 7px;
+}
+.img2 {
+	position: absolute;
+	width: 44%;
+	border-radius: 064%;
+	left: 54%;
+}
+
+footer {
+	margin-top: 39%;
+	color: #EEEEEE;
+	text-align: center;
+	font-family: 'Indie Flower', cursive;
+	font-size: 24px;
+}
+
+.drum {
+	outline: none;
+	border: 5px solid #4ECCA3;
+	font-size: 21px;
+	font-family: 'Arvo', cursive;
+	font-weight: 900;
+	color: #DA0463;
+	text-shadow: 3px 0 #DBEDF3;
+	border-radius: 15px;
+	display: inline-block;
+	width: 76px;
+	height: 45px;
+	text-align: center;
+	background-color: white;
+	position: absolute;
+	top: 218%;
+	right: 32%;
+}
+
+.res1, .res2 {
+	font-family: 'Arvo', cursive;
+	color: white;
+	position: absolute;
+	top: 267%;
+	right: 21%;
+	font-size: 30px;
+}
+
+.res1{
+  top: 247% !important;
+}
+
+.again {
+	outline: none;
+	border: 10px solid #F00;
+	font-size: 23px;
+	font-family: 'Arvo', cursive;
+	/* line-height: 2; */
+	font-weight: 900;
+	color: #9EA2A1;
+	text-shadow: 3px 0 #1C1A1A;
+	border-radius: 15px;
+	display: inline-block;
+	width: 143px;
+	height: 72px;
+	text-align: center;
+	/* margin: 10px; */
+	background-color: #fff;
+	position: absolute;
+	top: 204%;
+	right: 20%;
+}
+
+}
