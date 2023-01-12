@@ -1,2 +1,2 @@
-# Rock-Paper-Scissor
-A simple Rock Paper Scissor game using JavaScript and DOM.
+# Rock Paper Scissor
+A simple Rock Paper Scissor website using JavaScript and DOM.
